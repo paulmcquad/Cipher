@@ -1,6 +1,6 @@
 import string
 
-ALPHABET = string.ascii_lowercase
+ALPHABET = string.ascii_uppercase
 ALPHABET_LENGTH = len(ALPHABET)
 ALPHABET_LENGTH_NEGATIVE = - ALPHABET_LENGTH
 
