@@ -25,3 +25,7 @@ if __name__ == "__main__":
             key = int(input("Key: 1- 25: "))
             ciphertext_to_decipher = input("Decode:\n")
             print(ceasar(ciphertext_to_decipher, key, [string.ascii_lowercase,string.ascii_uppercase, string.punctuation]))
+        case 3:
+            secret_message = input("Brute Force:\n")
+            for key in range(26):
+                print("Key {0}:".format(key), ceasar(secret_message, key, [string.ascii_lowercase,string.ascii_uppercase, string.punctuation]))
