@@ -62,7 +62,7 @@ def brute_force(ciphertext, possible_keys=ALPHABET_LENGTH):
 
 if __name__ == "__main__":
 
-    mode = int(input("1 - Code:\n2 - Decode:\n3 - Brute Force:\n"))
+    mode = int(input("1 - Encode:\n2 - Decode:\n3 - Brute Force:\n"))
 
     match mode:
         case 1:

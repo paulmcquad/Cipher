@@ -14,7 +14,7 @@ def ceasar(text, shift, alphabets):
 
 if __name__ == "__main__":
 #    print(ceasar(plain_text, 7, [string.ascii_lowercase,string.ascii_uppercase, string.punctuation]))
-    mode = int(input("1 - Code:\n2 - Decode:\n3 - Brute Force:\n"))
+    mode = int(input("1 - Encode:\n2 - Decode:\n3 - Brute Force:\n"))
 
     match mode:
         case 1:
